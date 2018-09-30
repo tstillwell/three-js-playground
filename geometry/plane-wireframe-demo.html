@@ -20,15 +20,15 @@
         document.body.appendChild( renderer.domElement );
         var geometry = new THREE.BoxGeometry( 1, 1, 1 );
         var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-		var plane_material = new THREE.MeshNormalMaterial( { wireframe: true } );
+        var plane_material = new THREE.MeshNormalMaterial( { wireframe: true } );
         var cube = new THREE.Mesh( geometry, material );
-		var plane_geometry = new THREE.PlaneGeometry(100, 100, 10, 10);
-		var plane = new THREE.Mesh( plane_geometry, plane_material);
-		plane.position.y = -4;
-		scene.add(plane);
+        var plane_geometry = new THREE.PlaneGeometry(100, 100, 10, 10);
+        var plane = new THREE.Mesh( plane_geometry, plane_material);
+        plane.position.y = -4;
+        scene.add(plane);
         scene.add( cube );
         camera.position.z = 5;
-		plane.rotation.x = -1;
+        plane.rotation.x = -1;
         var animate = function () {
                 requestAnimationFrame( animate );
                 cube.rotation.x += 0.01;
