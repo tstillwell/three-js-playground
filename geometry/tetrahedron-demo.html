@@ -19,7 +19,7 @@
         renderer.setSize( window.innerWidth, window.innerHeight );
         document.body.appendChild( renderer.domElement );
         var geometry = new THREE.TetrahedronGeometry();
-        var material = new THREE.MeshBasicMaterial( {color: 0xffff00, side: THREE.DoubleSide } );
+        var material = new THREE.MeshBasicMaterial( {color: 0xFFFF00, side: THREE.DoubleSide } );
         var tetrahedron = new THREE.Mesh( geometry, material );
         scene.add( tetrahedron );
         camera.position.z = 10;
