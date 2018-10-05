@@ -19,7 +19,7 @@
         renderer.setSize( window.innerWidth, window.innerHeight );
         document.body.appendChild( renderer.domElement );
         var geometry = new THREE.CylinderGeometry( 5, 5, 20, 32 );
-        var material = new THREE.MeshBasicMaterial( {color: 0xffff00} );
+        var material = new THREE.MeshBasicMaterial( {color: 0xFFFF00} );
         var cylinder = new THREE.Mesh( geometry, material );
         scene.add( cylinder );
         camera.position.z = 50;
