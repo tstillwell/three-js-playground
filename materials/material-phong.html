@@ -14,7 +14,7 @@
     <script src="../js/three.min.js"></script>
     <script>
         var scene = new THREE.Scene();
-        var hemisphereLight = new THREE.HemisphereLight(0xffffff,0xff0000,1);
+        var hemisphereLight = new THREE.HemisphereLight(0xFFFFFF,0xFF0000,1);
         hemisphereLight.position.set(1, 0, 1).normalize();
         scene.add(hemisphereLight);
         camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 0.1, 1000 );
