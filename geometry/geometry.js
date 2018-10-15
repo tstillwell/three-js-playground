@@ -12,7 +12,6 @@ function addDemoListeners(){
     }
 
 function displayDemo(){
-    console.log("in displayDemo function..");
     let demo_pane = document.getElementById("demo-pane");
     const demo_files = [
         { id: 'cone', src: "cone-demo.html"},
