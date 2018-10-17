@@ -9,7 +9,7 @@ function addDemoListeners(){
     document.getElementById("sphere").addEventListener("click", displayDemo); 
     document.getElementById("tetrahedron").addEventListener("click", displayDemo);
     document.getElementById("torus").addEventListener("click", displayDemo);
-    }
+}
 
 function displayDemo(){
     let demo_pane = document.getElementById("demo-pane");
