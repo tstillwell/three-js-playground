@@ -12,7 +12,6 @@
         var ellipsePath = new THREE.CurvePath();
         ellipsePath.add(ellipse);
         var ellipseGeometry = ellipsePath.createPointsGeometry(100);
-        ellipseGeometry.computeTangents();
         var line = new THREE.Line(ellipseGeometry, line_material);
         scene.add( line );
         camera.position.z = 20;
