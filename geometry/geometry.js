@@ -1,14 +1,18 @@
+function setupListener(id){
+    return document.getElementById(id).addEventListener("click", displayDemo);
+}
+
 function addDemoListeners(){
-    document.getElementById("cone").addEventListener("click", displayDemo); 
-    document.getElementById("cube").addEventListener("click", displayDemo); 
-    document.getElementById("cylinder").addEventListener("click", displayDemo); 
-    document.getElementById("ellipse-curve").addEventListener("click", displayDemo); 
-    document.getElementById("plane").addEventListener("click", displayDemo); 
-    document.getElementById("plane-wireframe").addEventListener("click", displayDemo); 
-    document.getElementById("ring").addEventListener("click", displayDemo); 
-    document.getElementById("sphere").addEventListener("click", displayDemo); 
-    document.getElementById("tetrahedron").addEventListener("click", displayDemo);
-    document.getElementById("torus").addEventListener("click", displayDemo);
+    setupListener("cone");
+    setupListener("cube");
+    setupListener("cylinder");
+    setupListener("ellipse-curve");
+    setupListener("plane");
+    setupListener("plane-wireframe");
+    setupListener("ring");
+    setupListener("sphere");
+    setupListener("tetrahedron");
+    setupListener("torus");
 }
 
 function displayDemo(){
