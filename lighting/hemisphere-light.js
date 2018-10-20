@@ -2,6 +2,7 @@
         var hemisphereLight = new THREE.HemisphereLight(0xFFFFFF,0xFF0000,1);
         hemisphereLight.position.set(1, 0, 1).normalize();
         scene.add(hemisphereLight);
+		controls = new THREE.OrbitControls(camera);
         camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 0.1, 1000 );
         renderer = new THREE.WebGLRenderer();
         renderer.setSize( window.innerWidth, window.innerHeight );
