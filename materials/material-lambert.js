@@ -1,11 +1,11 @@
         var scene = new THREE.Scene();
-		var ambientLight = new THREE.AmbientLight( 0xFFFFFF, 0.5 );
-		var light = new THREE.PointLight(0xFFFFFF, 0.5 );
-		scene.add( ambientLight );
-		scene.add( light );
+        var ambientLight = new THREE.AmbientLight( 0xFFFFFF, 0.5 );
+        var light = new THREE.PointLight(0xFFFFFF, 0.5 );
+        scene.add( ambientLight );
+        scene.add( light );
         camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 0.1, 1000 );
         controls = new THREE.OrbitControls(camera);
-		renderer = new THREE.WebGLRenderer();
+        renderer = new THREE.WebGLRenderer();
         renderer.setSize( window.innerWidth, window.innerHeight );
         document.body.appendChild( renderer.domElement );
         var geometry = new THREE.BoxGeometry( 1, 1, 1 );
