@@ -38,7 +38,7 @@ function displayDemo(){
 
 function iframeLoaded() {
     const iFrameID = document.getElementById('demo-pane');
-    if(iFrameID) {
+    if (iFrameID) {
       iFrameID.height = "";
       iFrameID.height = document.body.scrollHeight + "px";
     }
