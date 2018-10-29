@@ -13,6 +13,12 @@ function addDemoListeners(){
     setupListener("sphere");
     setupListener("tetrahedron");
     setupListener("torus");
+    setupListener("basic-material");
+    setupListener("lambert-material");
+    setupListener("normal-material");
+    setupListener("phong-material");
+    setupListener("wireframe-material");
+    setupListener("normal-wireframe-material");
 }
 
 function displayDemo(){
@@ -28,6 +34,12 @@ function displayDemo(){
         { id: 'sphere', src: "geometry/sphere-demo.html"},
         { id: 'tetrahedron', src: "geometry/tetrahedron-demo.html"},
         { id: 'torus', src: "geometry/torus-demo.html"},
+        { id: 'basic-material', src: "materials/material-basic.html"},
+        { id: 'lambert-material', src: "materials/material-lambert.html"},
+        { id: 'normal-material', src: "materials/material-normal.html"},
+        { id: 'phong-material', src: "materials/material-phong.html"},
+        { id: 'wireframe-material', src: "materials/wireframe.html"},
+        { id: 'normal-wireframe-material', src: "materials/normal-wireframe.html"},
     ];
     for (file in demo_files) {
         if (demo_files[file].id == this.id) {
