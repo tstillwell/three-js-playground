@@ -20,6 +20,12 @@ function addDemoListeners(){
     setupListener("phong-material");
     setupListener("wireframe-material");
     setupListener("normal-wireframe-material");
+    setupListener("ambient-light");
+    setupListener("directional-light");
+    setupListener("hemisphere-light");
+    setupListener("point-light");
+    setupListener("shadow-light");
+    setupListener("multiple-shadow-light");
 }
 
 function displayDemo(){
@@ -42,6 +48,12 @@ function displayDemo(){
         { id: 'phong-material', src: "materials/material-phong.html"},
         { id: 'wireframe-material', src: "materials/wireframe.html"},
         { id: 'normal-wireframe-material', src: "materials/normal-wireframe.html"},
+        { id: 'ambient-light', src: "lighting/ambient-light.html"},
+        { id: 'directional-light', src: "lighting/directional-light.html"},
+        { id: 'hemisphere-light', src: "lighting/hemisphere-light.html"},
+        { id: 'point-light', src: "lighting/point-light.html"},
+        { id: 'shadow-light', src: "lighting/shadow-example.html"},
+        { id: 'multiple-shadow-light', src: "lighting/multiple-shadow-example.html"},
     ];
     for (file in demo_files) {
         if (demo_files[file].id == this.id) {
