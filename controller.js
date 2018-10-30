@@ -50,6 +50,7 @@ function displayDemo(){
 }
 
 function iframeLoaded() {
+    // Resize iframe height to use viewport height
     const iFrameID = document.getElementById('demo-pane');
     if (iFrameID) {
       iFrameID.height = "";
