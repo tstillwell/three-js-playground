@@ -22,6 +22,7 @@ function addDemoListeners(){ // Add displayDemo listener to each list item
 }
 
 function displayDemo(){
+    // Update src link for demo-pane
     let demo_pane = document.getElementById("demo-pane");
     const demo_files = [
         { id: 'cone', src: "geometry/cone-demo.html"},
