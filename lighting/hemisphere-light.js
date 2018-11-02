@@ -1,3 +1,4 @@
+function loadDemo(){
         var scene = new THREE.Scene();
         var hemisphereLight = new THREE.HemisphereLight(0xFFFFFF,0xFF0000,1);
         hemisphereLight.position.set(1, 0, 1).normalize();
@@ -19,3 +20,6 @@
                 renderer.render( scene, camera );
             };
         animate();
+}
+
+loadDemo();

@@ -1,3 +1,4 @@
+function loadDemo(){
         var scene = new THREE.Scene();
         var pointLight = new THREE.PointLight(0xFFFFFF);
         scene.add( pointLight );
@@ -21,3 +22,6 @@
                 renderer.render( scene, camera );
             };
         animate();
+}
+
+loadDemo();

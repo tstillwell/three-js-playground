@@ -1,3 +1,4 @@
+function loadDemo(){
         var scene = new THREE.Scene();
         var directionalLight = new THREE.DirectionalLight(0xFFFFFF);
         directionalLight.castShadow = true;
@@ -31,3 +32,6 @@
                 renderer.render( scene, camera );
             };
         animate();
+}
+
+loadDemo();

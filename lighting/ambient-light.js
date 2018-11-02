@@ -1,3 +1,4 @@
+function loadDemo(){
         var scene = new THREE.Scene();
         var ambientLight = new THREE.AmbientLight( 0xffffff );
         scene.add( ambientLight );
@@ -18,3 +19,6 @@
                 renderer.render( scene, camera );
             };
         animate();
+}
+
+loadDemo();
