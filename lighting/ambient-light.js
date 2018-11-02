@@ -1,5 +1,5 @@
         var scene = new THREE.Scene();
-        var ambientLight = new THREE.AmbientLight( 0x333333 );
+        var ambientLight = new THREE.AmbientLight( 0xffffff );
         scene.add( ambientLight );
         camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 0.1, 1000 );
         controls = new THREE.OrbitControls(camera);
