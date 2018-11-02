@@ -1,3 +1,4 @@
+function loadDemo(){
         var scene = new THREE.Scene();
         camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 0.1, 1000 );
         var hemisphereLight = new THREE.HemisphereLight(0xFFFFFF,0xFF0000,1);
@@ -19,3 +20,6 @@
                 renderer.render( scene, camera );
             };
         animate();
+}
+
+loadDemo();

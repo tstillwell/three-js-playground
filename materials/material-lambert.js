@@ -1,3 +1,4 @@
+function loadDemo(){
         var scene = new THREE.Scene();
         camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 0.1, 1000 );
         var ambientLight = new THREE.AmbientLight( 0xFFFFFF, 0.5 );
@@ -20,3 +21,6 @@
                 renderer.render( scene, camera );
             };
         animate();
+}
+
+loadDemo();
