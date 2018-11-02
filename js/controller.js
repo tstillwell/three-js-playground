@@ -1,31 +1,31 @@
-function setupListener(id){
+function setupDisplayListener(id){
     return document.getElementById(id).addEventListener("click", displayDemo);
 }
 
 function addDemoListeners(){
     // Add displayDemo listener to each list item
-    setupListener("cone");
-    setupListener("cube");
-    setupListener("cylinder");
-    setupListener("ellipse-curve");
-    setupListener("plane");
-    setupListener("plane-wireframe");
-    setupListener("ring");
-    setupListener("sphere");
-    setupListener("tetrahedron");
-    setupListener("torus");
-    setupListener("basic-material");
-    setupListener("lambert-material");
-    setupListener("normal-material");
-    setupListener("phong-material");
-    setupListener("wireframe-material");
-    setupListener("normal-wireframe-material");
-    setupListener("ambient-light");
-    setupListener("directional-light");
-    setupListener("hemisphere-light");
-    setupListener("point-light");
-    setupListener("shadow-light");
-    setupListener("multiple-shadow-light");
+    setupDisplayListener("cone");
+    setupDisplayListener("cube");
+    setupDisplayListener("cylinder");
+    setupDisplayListener("ellipse-curve");
+    setupDisplayListener("plane");
+    setupDisplayListener("plane-wireframe");
+    setupDisplayListener("ring");
+    setupDisplayListener("sphere");
+    setupDisplayListener("tetrahedron");
+    setupDisplayListener("torus");
+    setupDisplayListener("basic-material");
+    setupDisplayListener("lambert-material");
+    setupDisplayListener("normal-material");
+    setupDisplayListener("phong-material");
+    setupDisplayListener("wireframe-material");
+    setupDisplayListener("normal-wireframe-material");
+    setupDisplayListener("ambient-light");
+    setupDisplayListener("directional-light");
+    setupDisplayListener("hemisphere-light");
+    setupDisplayListener("point-light");
+    setupDisplayListener("shadow-light");
+    setupDisplayListener("multiple-shadow-light");
 }
 
 function displayDemo(){
