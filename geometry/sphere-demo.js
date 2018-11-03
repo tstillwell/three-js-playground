@@ -12,8 +12,6 @@ function loadDemo(){
         camera.position.z = 20;
         var animate = function () {
                 requestAnimationFrame( animate );
-                sphere.rotation.x += 0.01;
-                sphere.rotation.y += 0.01;
                 renderer.render( scene, camera );
             };
         animate();
