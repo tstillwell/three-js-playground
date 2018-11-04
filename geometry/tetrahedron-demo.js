@@ -11,11 +11,11 @@ function loadDemo(){
     scene.add( tetrahedron );
     camera.position.z = 10;
     var animate = function () {
-            requestAnimationFrame( animate );
-            tetrahedron.rotation.y += 0.01;
-            tetrahedron.rotation.x += 0.01;
-            renderer.render( scene, camera );
-        };
+        requestAnimationFrame( animate );
+        tetrahedron.rotation.y += 0.01;
+        tetrahedron.rotation.x += 0.01;
+        renderer.render( scene, camera );
+    };
     animate();
 }
 

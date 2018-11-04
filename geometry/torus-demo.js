@@ -11,11 +11,11 @@ function loadDemo(){
     scene.add( torus );
     camera.position.z = 50;
     var animate = function () {
-            requestAnimationFrame( animate );
-            torus.rotation.y += 0.01;
-            torus.rotation.x += 0.01;
-            renderer.render( scene, camera );
-        };
+        requestAnimationFrame( animate );
+        torus.rotation.y += 0.01;
+        torus.rotation.x += 0.01;
+        renderer.render( scene, camera );
+    };
     animate();
 }
 

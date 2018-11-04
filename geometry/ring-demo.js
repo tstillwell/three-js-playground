@@ -11,11 +11,11 @@ function loadDemo(){
     scene.add( ring );
     camera.position.z = 50;
     var animate = function () {
-            requestAnimationFrame( animate );
-            ring.rotation.y += 0.05;
-            ring.rotation.x += 0.05;
-            renderer.render( scene, camera );
-        };
+        requestAnimationFrame( animate );
+        ring.rotation.y += 0.05;
+        ring.rotation.x += 0.05;
+        renderer.render( scene, camera );
+    };
     animate();
 }
 

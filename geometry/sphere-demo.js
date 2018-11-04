@@ -11,9 +11,9 @@ function loadDemo(){
     scene.add( sphere );
     camera.position.z = 20;
     var animate = function () {
-            requestAnimationFrame( animate );
-            renderer.render( scene, camera );
-        };
+        requestAnimationFrame( animate );
+        renderer.render( scene, camera );
+    };
     animate();
 }
 

@@ -11,9 +11,9 @@ function loadDemo(){
     scene.add( cylinder );
     camera.position.z = 50;
     var animate = function () {
-            requestAnimationFrame( animate );
-            renderer.render( scene, camera );
-        };
+        requestAnimationFrame( animate );
+        renderer.render( scene, camera );
+    };
     animate();
 }
 
