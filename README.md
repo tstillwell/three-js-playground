@@ -13,7 +13,7 @@ Then view examples by opening `index.html` in your browser.
 Code demos and examples are located
 in their respective directories.
 
-Uses MUI css framework
+Uses MUI css framework for responsive side drawer.
 
 https://www.muicss.com/
 
