@@ -12,3 +12,6 @@ Then view examples by opening `index.html` in your browser.
 
 Code demos and examples are located
 in their respective directories.
+
+three.js documentation
+https://threejs.org/docs/
