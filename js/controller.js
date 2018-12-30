@@ -62,14 +62,13 @@ function displayDemo(){
     }
 }
 
-function iframeLoaded() {
+(function iframeLoaded() {
     // Resize iframe height to use viewport height
     const iFrameID = document.getElementById('demo-pane');
     if (iFrameID) {
       iFrameID.height = "";
       iFrameID.height = document.body.scrollHeight + "px";
     }
-}
+})();
 
-iframeLoaded();
 addDemoListeners();
