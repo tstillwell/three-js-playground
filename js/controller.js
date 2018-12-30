@@ -31,7 +31,7 @@ function addDemoListeners(){
 function displayDemo(){
     // Update src link for demo-pane
     let demo_pane = document.getElementById("demo-pane");
-    const demo_files = [
+    const demo_files = [ // iframe src mappings for each id
         { id: 'cone', src: "geometry/cone-demo.html"},
         { id: 'cube', src: "geometry/cube-demo.html"},
         { id: 'cylinder', src: "geometry/cylinder-demo.html"},
