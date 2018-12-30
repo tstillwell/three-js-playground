@@ -2,7 +2,7 @@ function setupDisplayListener(id){
     return document.getElementById(id).addEventListener("click", displayDemo);
 }
 
-function addDemoListeners(){
+(function addDemoListeners(){
     // Add displayDemo listener to each list item
     setupDisplayListener("cone");
     setupDisplayListener("cube");
@@ -26,7 +26,7 @@ function addDemoListeners(){
     setupDisplayListener("point-light");
     setupDisplayListener("shadow-light");
     setupDisplayListener("multiple-shadow-light");
-}
+})();
 
 function displayDemo(){
     // Update src link for demo-pane
@@ -70,5 +70,3 @@ function displayDemo(){
       iFrameID.height = document.body.scrollHeight + "px";
     }
 })();
-
-addDemoListeners();
