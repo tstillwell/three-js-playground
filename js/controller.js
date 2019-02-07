@@ -28,7 +28,7 @@ function setupDisplayListener(id) {
     setupDisplayListener("multiple-shadow-light");
 })();
 
-function displayDemo(){
+function displayDemo() {
     // Update src link for demo-pane
     let demo_pane = document.getElementById("demo-pane");
     const demo_files = [ // iframe src mappings for each id
