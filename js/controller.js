@@ -2,7 +2,7 @@ function setupDisplayListener(id) {
     return document.getElementById(id).addEventListener("click", displayDemo);
 }
 
-(function addDemoListeners(){
+(function addDemoListeners() {
     // Add displayDemo listener to each list item
     setupDisplayListener("cone");
     setupDisplayListener("cube");
