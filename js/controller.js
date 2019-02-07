@@ -1,4 +1,4 @@
-function setupDisplayListener(id){
+function setupDisplayListener(id) {
     return document.getElementById(id).addEventListener("click", displayDemo);
 }
 
