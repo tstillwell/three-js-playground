@@ -31,7 +31,7 @@ function setupDisplayListener(id) {
 function displayDemo() {
     // Update src link for demo-pane
     let demoPane = document.getElementById("demo-pane");
-    const demo_files = [ // iframe src mappings for each id
+    const demoFiles = [ // iframe src mappings for each id
         { id: 'cone', src: "geometry/cone-demo.html"},
         { id: 'cube', src: "geometry/cube-demo.html"},
         { id: 'cylinder', src: "geometry/cylinder-demo.html"},
@@ -55,9 +55,9 @@ function displayDemo() {
         { id: 'shadow-light', src: "lighting/shadow-example.html"},
         { id: 'multiple-shadow-light', src: "lighting/multiple-shadow-example.html"},
     ];
-    for (file in demo_files) {
-        if (demo_files[file].id == this.id) {
-            demoPane.src = demo_files[file].src;
+    for (file in demoFiles) {
+        if (demoFiles[file].id == this.id) {
+            demoPane.src = demoFiles[file].src;
         }
     }
 }
