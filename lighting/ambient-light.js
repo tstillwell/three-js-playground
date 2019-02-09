@@ -1,4 +1,4 @@
-function loadDemo(){
+function loadDemo() {
     var scene = new THREE.Scene();
     var ambientLight = new THREE.AmbientLight( 0xffffff );
     scene.add( ambientLight );
