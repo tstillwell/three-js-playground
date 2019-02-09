@@ -1,4 +1,4 @@
-function loadDemo(){
+function loadDemo() {
     var scene = new THREE.Scene();
     var pointLight = new THREE.PointLight(0xFFFFFF);
     scene.add( pointLight );
